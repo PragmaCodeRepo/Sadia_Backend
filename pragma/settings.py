@@ -139,7 +139,7 @@ USE_TZ = True
 import os
 STATIC_URL = 'static/'
 MEDIA_URL='/media/'
-STATIC_ROOT='/static/'
+# STATIC_ROOT='/static/'
 STATICFILES_DIRS = ['static_files']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
